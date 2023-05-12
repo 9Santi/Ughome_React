@@ -1,0 +1,23 @@
+/* buttons*/
+
+.btn {
+  border: solid 2px black;
+  background-color: black;
+  color: white;
+}
+.btn:hover {
+  border: solid 2px black;
+}
+
+.produit {
+  background-color: aquamarine;
+  border-radius: 25px;
+}
+
+#allergenes {
+  text-transform: uppercase;
+}
+
+#additif {
+  text-transform: uppercase;
+}

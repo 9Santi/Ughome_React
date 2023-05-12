@@ -3,6 +3,25 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
+
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.openfoodfacts.org",
+        port: "",
+        pathname: "/images/products/",
+      },
+    ],
+  },
+};
+
+module.exports = {
+  images: {
+    domains: ["images.openfoodfacts.org"],
+  },
+};
